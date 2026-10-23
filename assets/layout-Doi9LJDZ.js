@@ -1,0 +1,1 @@
+var e=9.6,t=e=>Array.from({length:8},(t,n)=>`P${e}.${n}`),n=[...t(0),...t(2)],r=[...t(1),...t(3)],i={VCC:{x:150,y:14},GND:{x:169.2,y:14}},a={...Object.fromEntries(n.map((t,n)=>[t,{x:12,y:60+n*e}])),...Object.fromEntries(r.map((t,n)=>[t,{x:188,y:60+n*e}])),...i};export{r as a,i,n,e as r,a as t};

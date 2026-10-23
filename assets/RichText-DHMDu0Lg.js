@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Cx0HxCDb.js";var t=e();function n({text:e}){let n=e.split(/(`[^`]+`|\*\*[^*]+\*\*)/g);return(0,t.jsx)(t.Fragment,{children:n.map((e,n)=>e.startsWith("`")&&e.length>1?(0,t.jsx)(`code`,{children:e.slice(1,-1)},n):e.startsWith(`**`)?(0,t.jsx)(`b`,{children:e.slice(2,-2)},n):(0,t.jsx)(`span`,{children:e},n))})}export{n as t};

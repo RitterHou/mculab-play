@@ -1,0 +1,11 @@
+--- a/src/SDCCmain.c
++++ b/src/SDCCmain.c
+@@ -1789,7 +1789,7 @@
+     }
+ 
+   /* if debug option is set then open the cdbFile */
+-  if (options.debug && fullSrcFileName)
++  if (options.debug && (fullSrcFileName || options.c1mode))
+     {
+       struct dbuf_s adbFile;
+ 

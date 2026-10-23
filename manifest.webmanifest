@@ -1,0 +1,12 @@
+{
+  "name": "mculab · 网页单片机实验室",
+  "short_name": "mculab",
+  "description": "在浏览器里写 51 单片机程序、接电路、仿真运行",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

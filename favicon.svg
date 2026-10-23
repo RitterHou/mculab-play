@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <!-- 一颗 DIP 芯片：左上角的圆点是 1 脚标记。深色模式下芯片换成浅色，否则在深色标签栏上看不清 -->
+  <style>
+    .body { fill: #1f2328 }
+    .pin { fill: #8a919c }
+    .dot { fill: #8a919c }
+    @media (prefers-color-scheme: dark) {
+      .body { fill: #e6e8eb }
+      .pin { fill: #a3abb6 }
+      .dot { fill: #1f2328 }
+    }
+  </style>
+  <g class="pin">
+    <rect x="1.5" y="3.9" width="2.5" height="1.2" />
+    <rect x="1.5" y="6.9" width="2.5" height="1.2" />
+    <rect x="1.5" y="9.9" width="2.5" height="1.2" />
+    <rect x="1.5" y="12.9" width="2.5" height="1.2" />
+    <rect x="14" y="3.9" width="2.5" height="1.2" />
+    <rect x="14" y="6.9" width="2.5" height="1.2" />
+    <rect x="14" y="9.9" width="2.5" height="1.2" />
+    <rect x="14" y="12.9" width="2.5" height="1.2" />
+  </g>
+  <rect class="body" x="4" y="2" width="10" height="14" rx="1.5" />
+  <circle class="dot" cx="6.6" cy="4.6" r="1" />
+</svg>

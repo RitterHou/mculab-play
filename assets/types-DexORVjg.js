@@ -1,0 +1,1 @@
+var e={ambient:25,tau:30,fanBoost:3},t={ambient:[-40,80],tau:[2,600],fanBoost:[0,20]};function n(e,t){return`${e}:${t}`}function r(e){let t=e.indexOf(`:`);return t<=0||t===e.length-1?null:{partId:e.slice(0,t),pin:e.slice(t+1)}}export{n as i,t as n,r,e as t};
